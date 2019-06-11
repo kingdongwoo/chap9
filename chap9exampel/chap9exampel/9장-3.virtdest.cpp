@@ -6,7 +6,7 @@ public:
     BaseClass (){
         cout << "Base class constructor called" << endl;
     }
-    ~BaseClass (){ //virtual destructor
+    virtual ~BaseClass (){ //virtual destructor
         cout << "Base class destructor called" << endl;
     }
 };

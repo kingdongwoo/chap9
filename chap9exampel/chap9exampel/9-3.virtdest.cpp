@@ -7,7 +7,7 @@ public:
     BaseClass(){
         cout<< "Base class 생성자 호출"<< endl;
     }
-    virtual ~BaseClass(){ 
+    virtual ~BaseClass(){ //virtual 빼보고 결과 확인
         cout<< "Base class 소멸자 호출"<< endl;
     }
 };
