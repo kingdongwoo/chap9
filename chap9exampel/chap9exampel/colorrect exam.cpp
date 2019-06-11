@@ -26,7 +26,7 @@ public:
 		
 	}
 	void draw() {
-		cout << "도형을 그린다." << endl;
+		cout << "도형을 그린다" << endl;
 	}
 	void setName(const char* _name) {
 		m_Name = _name;
